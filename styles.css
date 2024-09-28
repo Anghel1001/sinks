@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #1e140a;
+    background-color: grey;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -15,14 +15,15 @@ body {
 }
 
 header {
-    background-color: #1e140a;
+    background-color: grey;
     color: white;
     text-align: center;
     padding: 20px;
+    text-shadow: 2px 2px 5px black;
 }
 
 nav {
-    background-color: #1e140a;
+    background-color: black;
     padding: 15px;
     color: white;
     font-size: 12px;
@@ -43,6 +44,9 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+}
+nav a:hover {
+    font-size: 15px;
 }
 
 .container {
@@ -67,6 +71,7 @@ nav a {
     height: auto;
     margin-bottom: 15px;
 }
+
 
 @media screen and (max-width: 768px) {
     .container {
